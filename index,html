@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gran Theft Auto VI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="https://zupimages.net/up/23/14/bjno.png">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+    <div id="title">Gran Theft Auto VI</div><br>
+    <div id="links">
+        <a href="#skills">Description</a>
+        <a href="#work" style="margin:0px 60px;">Works</a>
+        <a href="#contact">Contact</a>
+    </div>
+    </div>
+
+    <center>
+    <div id="middle">
+        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
+            Grand Theft Auto VI now in Early Access<br>
+            <a href="./GrandTheftAutoVI.exe" download>
+                <button class="btn_one">Download</button>
+              </a>
+        </div>
+    </div>
+    </center>
+
+    <div id="portfolio">
+             <div id="skills">
+                 <h1>Description</h1>   
+                 <div>
+                        <p>
+                            This is a demo version of Grand Theft Auto VI the game is currently in development so it is normal that you may encounter bugs. <br>
+                            Grand Theft Auto VI boasts a rich and immersive open world, diverse gameplay, impressive graphics, exceptional soundtrack, satirical humor and captivating storyline.
+                        </p>
+                 </div> 
+             </div>
+         
+              <div id="work">
+                 <h1>Works</h1>
+
+                 <div class="project">
+                 <h2>Grand Theft Auto VI v1.3</h2>
+                 <div>
+                    • Bugfix <br>
+                    • Added "Megalico" vehicle <br>
+                    • New preliminary mission for the robbery of the jewelry store in Lickhawn
+                </div>
+                <a href="./GrandTheftAutoVI.exe" download>
+                    <button class="btn_one" href="./GrandTheftAutoVI.exe">Download</button>
+                </a>
+                </div>
+
+                <div class="project">
+                <h2>Grand Theft Auto VI v1.4</h2>
+                <div>
+                    • Bugfix <br>
+                    • New weapon "Bow"
+                </div>
+                <a href="./GrandTheftAutoVI.exe" download>
+                    <button class="btn_one" href="./GrandTheftAutoVI.exe">Download</button>
+                </a>
+                </div>
+
+             </div>
+         
+              <div id="contact">
+                 <h1>Contact</h1> 
+                 <form>
+                     <input type="text" placeholder="name" required>
+                     <input type="email" placeholder="your email" required><br>
+                     <textarea placeholder="your message" required rows="5"></textarea><br>
+                     <button class="btn_one">Send</button>
+                 </form> 
+                 <div id="details">
+                    <a class="btn_social" href="https://www.instagram.com/rockstargames/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn_social" href="https://twitter.com/RockstarGames"><i class="fab fa-twitter"></i></a>
+                    <a class="btn_social" href="https://www.rockstargames.com/" "><i class="fab fa-dribbble"></i></a>
+                 </div>   
+             </div>
+    </div>
+    <div id="footer">
+        Made by<br><br> <a href="https://www.rockstargames.com/">Rockstar Games</a>
+    </div>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
